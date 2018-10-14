@@ -1,4 +1,4 @@
-# ReadMe: stopmodreposts.github.io
+# stopmodreposts.github.io
 StopModReposts' website.
 
 

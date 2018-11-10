@@ -1,0 +1,182 @@
+body {
+  background-color: #ffa800;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 13pt !important;
+  font-weight: 300 !important;
+}
+
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+#myPageContent, section {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#textSlider.row {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100% !important;
+}
+
+#textSlider div {
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+.iamCol {
+  text-align: right;
+  float: left;
+  font-weight: 300;
+  font-size: 30pt;
+}
+
+.iamCol p:nth-child(2) {
+  margin-top: -20pt !important;
+}
+
+.slideCol {
+  text-align: left;
+  overflow: hidden;
+  font-weight: 900;
+  font-size: 70pt;
+  display: block;
+  white-space: nowrap;
+}
+
+.slideCol p {
+  margin: 0px !important;
+}
+
+.scroller {
+  height: 70pt;
+  line-height: 70pt;
+  overflow: hidden;
+}
+
+.scroller .inner {
+  animation: 10s normal infinite running scroll;
+}
+
+@keyframes scroll {
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+  .iamCol {
+    text-align: center;
+    font-size: 20pt;
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+  .iamCol p {
+    display: inline !important;
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+  .slideCol {
+    font-size: 25pt;
+    text-align: center;
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 765px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 765px) {
+  .iamCol {
+    text-align: center;
+    font-size: 25pt;
+  }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 765px) {
+  .iamCol p {
+    display: inline !important;
+  }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 765px) {
+  .slideCol {
+    font-size: 38pt;
+    text-align: center;
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  .iamCol {
+    text-align: center;
+    font-size: 30pt;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  .iamCol p {
+    display: inline !important;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  .slideCol {
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+  .iamCol {
+    text-align: right;
+    font-size: 30pt;
+  }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+  .slideCol {
+    font-size: 55pt;
+    text-align: left;
+  }
+}
+

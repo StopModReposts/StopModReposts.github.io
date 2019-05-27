@@ -16,4 +16,4 @@ Please open an Issue if you happen to find bugs/issues!
 
 ---
 
-Copyright StopModReposts 2018
+Copyright StopModReposts 2018 - 2019

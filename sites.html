@@ -24,6 +24,49 @@
 
   gtag('config', 'UA-136534352-1');
 </script>
+<style type="text/css">
+table {
+    width: 100%;
+}
+thead tr {
+    color: #eee;
+    font-weight: bold;
+}
+thead tr td.rating {
+    width: 10%;
+}
+tbody tr {
+    color: #fff;
+    background-color: #292D30;
+}
+tbody tr:nth-child(2n) {
+    background-color: #23272A;
+}
+tbody tr .rating {
+    font-weight: bold;
+}
+td {
+    padding: 10px !important;
+}
+.rating-1 {
+    color: lime;
+}
+.rating-2 {
+    color: yellow;
+}
+.rating-3 {
+    color: orange;
+}
+.rating-4 {
+    color: orangered;
+}
+.rating-5 {
+    color: #f33;
+}
+.rate-of {
+    color: #aaa;
+}
+</style>
 
 </head>
 
@@ -33,9 +76,9 @@
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html" style="color: rgb(108,119,119);">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html" style="color: rgb(119,119,119);">About</a></li>
-                    <li class="nav-item" role="presentation" style="color: rgb(170,179,179);"><a class="nav-link active" href="howto.html" style="color: rgb(179,179,179);">Get Involved</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html" style="color: rgb(108,108,109);">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="about.html" style="color: rgb(179,179,179);">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="howto.html" style="color: rgb(119,119,119);">Get Involved</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="faq.html" style="color: rgb(108,108,109);">FAQ</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="downloads.html" style="color: rgb(94,95,100);">Downloads</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" style="color: rgb(94,95,100);">Contact</a></li>
@@ -45,21 +88,23 @@
     </nav>
     <div class="highlight-clean" style="background-color: #23272a;">
         <div class="container">
-            <div class="intro">
-                <h2 class="text-center" style="color: rgb(255,255,255);">How to get involved</h2>
-                <p class="text-center" style="margin-top: -20px;">It's not hard to help!</p>
+            <div class="intro" style="max-width: 700px;">
+                <h2 class="text-center" style="color: rgb(255,255,255);">List of blocked sites</h2>
+                <p class="text-center" style="margin-top: -20px;">The following sites are known for reposting mods illegally. They are harmful to the modding community and may even harm your computer. Avoid using them.</p>
             </div>
         </div>
-        <h3 class="mx-auto" style="width: 1050px;color: rgb(204,208,211);"><span class="badge badge-primary" style="width: 34px;height: 34px;font-size: 29px;padding-bottom: 37px;padding-right: 29px;">1</span>&nbsp; &nbsp;Don't visit the listed sites</h3>
-        <p class="mx-auto" style="width: 1050px;">We maintain <a href="./sites.html">a list of sites</a> that illegally redistribute mods. These sites mostly make ad revenue from every visit. Visiting the reposting sites supports them. You can download our free extension for Chrome, Firefox and Opera <a href="dl/extension.html">here</a>.</p>
-        <h3 class="mx-auto" style="width: 1050px;margin-top: 45px;color: rgb(204,208,211);"><span class="badge badge-primary" style="width: 34px;height: 34px;font-size: 29px;padding-bottom: 37px;padding-right: 29px;">2</span>&nbsp; &nbsp;Report reposting sites</h3>
-        <p class="mx-auto" style="width: 1050px;">If you discover a new site, and don't see it on our lists, then feel free to notify us about the site via the <a href="contact.html">Contact Form</a>.</p>
-        <h3 class="mx-auto" style="width: 1050px;margin-top: 45px;color: rgb(204,208,211);"><span class="badge badge-primary" style="width: 34px;height: 34px;font-size: 29px;padding-bottom: 37px;padding-right: 29px;">3</span>&nbsp; &nbsp;Contact mod authors</h3>
-        <p class="mx-auto" style="width: 1050px;">Ask the mod authors if they permitted the reposting. Please don't spam them, and only contact them, when multiple mods made by them where reposted.</p>
-        <h3 class="mx-auto" style="width: 1050px;margin-top: 45px;color: rgb(204,208,211);"><span class="badge badge-primary" style="width: 34px;height: 34px;font-size: 29px;padding-bottom: 37px;padding-right: 29px;">4</span>&nbsp; &nbsp;Support us on Twitter</h3>
-        <p class="mx-auto" style="width: 1050px;">Every Follower, Like and Retweet helps. Also, feel free to use our Hashtag #StopModReposts and #AntiModRepost.</p>
-        <h3 class="mx-auto" style="width: 1050px;margin-top: 45px;color: rgb(204,208,211);"><span class="badge badge-primary" style="width: 34px;height: 34px;font-size: 29px;padding-bottom: 37px;padding-right: 29px;">5</span>&nbsp; &nbsp;For Mod Authors: Request the removal of your mod.</h3>
-        <p class="mx-auto" style="width: 1050px;">You can file a DMCA takedown notice to request the removal of your mod.<em> </em><br><em>Please keep in mind: DMCAs are legal documents, and you must make sure you understand the full procedure, and the consequenses for not following it.</em></p>
+        <div class="container">
+            <table>
+                <thead><tr>
+                    <td>Site name</td>
+                    <td class="rating">Ads</td>
+                    <td class="rating">Redistr.</td>
+                    <td class="rating">Misc.</td>
+                    <td>Notes</td>
+                </tr></thead>
+                <tbody id="sitelist"></tbody>
+            </table>
+        </div>
     </div>
     <div class="footer-dark" style="background-color: rgb(31,34,37);">
         <footer>
@@ -100,6 +145,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script type="text/javascript">
+$.getJSON("https://api.varden.info/smr/sitelist.php?format=json", function(result) {
+    for (var i = 0; i < result.length; i++) {
+        var row = $("<tr/>");
+        var site = result[i].domain + (result[i].path == "/" ? "" : result[i].path);
+        row.append($('<td/>').text(site));
+        row.append($('<td/>').append($('<span class="rating"/>').text(result[i].advertising).addClass("rating-" + result[i].advertising)).append('<span class="rate-of">/5</span>'));
+        row.append($('<td/>').append($('<span class="rating"/>').text(result[i].redistribution).addClass("rating-" + result[i].redistribution)).append('<span class="rate-of">/5</span>'));
+        row.append($('<td/>').append($('<span class="rating"/>').text(result[i].miscellaneous).addClass("rating-" + result[i].miscellaneous)).append('<span class="rate-of">/5</span>'));
+        row.append($('<td/>').text(result[i].notes));
+        $("#sitelist").append(row);
+    }
+});
+    </script>
 </body>
 
 </html>

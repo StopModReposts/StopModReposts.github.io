@@ -4,9 +4,8 @@ StopModReposts' website.
 
 
 ### Version
-**Current Version:**   v1.7.1
-
-**Release Date:**      15/04/2020
+**Current Version:**   v1.8
+**Release Date:**      25/07/2020
 
 (Date format: DD/MM/YYYY)
 

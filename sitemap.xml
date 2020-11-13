@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://stopmodreposts.org/dl/404.html</loc>
-    </url>
-    <url>
-        <loc>https://stopmodreposts.org/dl/extension.html</loc>
-    </url>
-    <url>
-        <loc>https://stopmodreposts.org/dl/splashscreenmod.html</loc>
-    </url>
-    <url>
         <loc>https://stopmodreposts.org/404.html</loc>
     </url>
     <url>
@@ -19,10 +10,16 @@
         <loc>https://stopmodreposts.org/contact.html</loc>
     </url>
     <url>
-        <loc>https://stopmodreposts.org/downloads.html</loc>
+        <loc>https://stopmodreposts.org/donate.html</loc>
+    </url>
+    <url>
+        <loc>https://stopmodreposts.org/extension.html</loc>
     </url>
     <url>
         <loc>https://stopmodreposts.org/faq.html</loc>
+    </url>
+    <url>
+        <loc>https://stopmodreposts.org/get-involved.html</loc>
     </url>
     <url>
         <loc>https://stopmodreposts.org/howto.html</loc>
@@ -31,9 +28,27 @@
         <loc>https://stopmodreposts.org/index.html</loc>
     </url>
     <url>
+        <loc>https://stopmodreposts.org/privacy.html</loc>
+    </url>
+    <url>
         <loc>https://stopmodreposts.org/privacypolicy.html</loc>
     </url>
     <url>
+        <loc>https://stopmodreposts.org/remove.html</loc>
+    </url>
+    <url>
+        <loc>https://stopmodreposts.org/sites.html</loc>
+    </url>
+    <url>
+        <loc>https://stopmodreposts.org/submit.html</loc>
+    </url>
+    <url>
+        <loc>https://stopmodreposts.org/terms.html</loc>
+    </url>
+    <url>
         <loc>https://stopmodreposts.org/tos.html</loc>
+    </url>
+    <url>
+        <loc>https://stopmodreposts.org/wip.html</loc>
     </url>
 </urlset>

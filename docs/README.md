@@ -1,4 +1,7 @@
 # stopmodreposts.github.io
+[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/a2hc.svg)](https://betteruptime.com/?utm_source=status_badge)
+
+
 StopModReposts' website.
 
 

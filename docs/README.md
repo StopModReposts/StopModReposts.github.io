@@ -7,8 +7,8 @@ StopModReposts' website.
 
 
 ### Version
-**Current Version:**   v2.0.0
-**Release Date:**      13/11/2020
+**Current Version:**   v2.2.0
+**Release Date:**      29/12/2021
 
 (Date format: DD/MM/YYYY)
 
@@ -18,4 +18,4 @@ Please open an Issue if you happen to find bugs/issues!
 
 ---
 
-Copyright StopModReposts 2018 - 2020
+Copyright StopModReposts 2018 - 2021

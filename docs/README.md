@@ -10,4 +10,4 @@ Please open an Issue if you happen to find bugs/issues!
 
 ---
 
-Copyright StopModReposts 2018 - 2021
+Copyright StopModReposts 2018 - 2022
